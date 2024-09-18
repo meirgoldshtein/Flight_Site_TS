@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #d5cece;
+
+}
+
+select{
+    width: 50%;
+    height: 80%;
+    margin: 1%;
+}
+.top{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 50%;
+    
+}
+
+.top #name{
+    width: 32%;
+    height: 50%;
+    margin: 1%;
+    
+}
+
+.top .gender{
+    width: 10%;
+    height: 30%;
+   
+}
+
+.bottom{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 50%;
+}
+
+
+.bottom #btnSend{
+    width: 10%;
+    height: 50%;
+    margin: 1%;
+    background-color: #2c893a;
+    box-shadow: 1px 1px 5px rgb(88, 85, 85);
+    border: 1px solid rgb(88, 85, 85);
+    border-radius: 10px;
+}
+
+#btnRefresh
+{
+    width: 10%;
+    height: 50%;
+    margin: 1%;
+    background-color: #6e25aa;
+    box-shadow: 1px 1px 5px rgb(88, 85, 85);
+    border: 1px solid rgb(88, 85, 85);
+    border-radius: 10px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+
+.header{
+
+    overflow: hidden;
+    width: 90%;
+    height: 27%;
+    background-color: #8d8a8a;
+    border: 1px solid rgb(88, 85, 85);
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgb(88, 85, 85);
+    margin: 0.7%;
+}
+
+.body{
+    overflow: auto;
+    width: 90%;
+    min-height: 70%;
+    max-height: 370%;
+    background-color: #8d8a8a;
+    box-shadow: 1px 1px 5px rgb(88, 85, 85);
+    border: 1px solid rgb(88, 85, 85);
+    border-radius: 10px;
+    margin: 0.7%;
+
+}
+

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <div class="header col">
+            <div class="top">
+                 
+                <input type="radio" name="gender" class="gender" id="male" value="male" checked>
+                <label for="male">Male</label>
+                <input type="radio" name="gender" class="gender" id="female" value="female">
+                <label for="female">Female</label>
+                <input type="text" placeholder="Enter name" id="name">   
+
+            </div>
+            <div class="bottom">
+                <select name="flight" id="">
+                    <option value="" selected disabled>Choose Flight</option>
+                </select>
+                <button id="btnSend">Send</button>
+                <button id="btnRefresh">Refresh</button>
+            </div>
+        </div>
+        <div class="body col" >
+            
+        </div>
+    </div>
+</body>
+</html>
