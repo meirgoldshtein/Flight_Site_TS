@@ -228,6 +228,7 @@ SEND_BTN.addEventListener('click', () => __awaiter(void 0, void 0, void 0, funct
         }
         // console.log(response);
         NAME_INPUT.value = '';
+        renderPassangers();
     }
     catch (err) {
         console.error(err);
